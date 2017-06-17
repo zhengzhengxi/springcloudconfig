@@ -1,6 +1,9 @@
 spring:
   application:
     name: hystrix-service1
+  cloud:
+    config:
+      allow-override: true
 server:
   port: 8022
 eureka:
